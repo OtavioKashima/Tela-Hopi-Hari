@@ -1,3 +1,56 @@
 .img {
-    <img class="img" src="img/parque.jpg" alt="Img parque"/
+    height: auto;
+    width: 700px;
+    display: block;
+    margin: 0 auto ;
+    object-fit: contain;
+    
+    
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    margin-left: 850px;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+footer{
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em
+}
+
+.botao{
+    margin-left: 800px;
+}
+
+.insta{
+    width: 100px;
+    height: 100px;
+}
+.face{
+    width: 100px;
+    height: 100px;
+}
+.ingre{
+    color: white;
+    background-color: grey;
+    background-size: auto;
 }
