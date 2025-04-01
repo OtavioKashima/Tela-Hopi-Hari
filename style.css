@@ -1,7 +1,7 @@
 .img {
     height: auto;
     width: 700px;
-    display: block;
+    display: flex;
     margin: 0 auto ;
     object-fit: contain;
     
@@ -14,7 +14,7 @@ body{
 
 h1{
     margin-left: 850px;
-    color: aliceblue;
+    color: black;
     font-size: 50px;
 }
 
@@ -30,15 +30,19 @@ footer{
 }
 
 p{
-    color: white;
+    flex-wrap: wrap;
+    color: black;
     font-size: 30px;
-    margin-left: auto;
-    margin-right: auto;
     width: 20em
 }
 
+header{
+    background-color: white;
+}
 .botao{
-    margin-left: 800px;
+    display: flex;
+    justify-content: space-between;
+    width: 20px;
 }
 
 .insta{
@@ -50,7 +54,5 @@ p{
     height: 100px;
 }
 .ingre{
-    color: white;
     background-color: grey;
-    background-size: auto;
 }
